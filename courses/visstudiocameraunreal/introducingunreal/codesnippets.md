@@ -92,7 +92,7 @@ void AASplitScreenManager::ApplyEightViewportSettings()
 #include "ASplitScreenManager.generated.h"
 
 UCLASS()
-class <<<<PROJECT TITLE>>>>_API AASplitScreenManager : public AActor
+class &lt;&lt;&lt;&lt;PROJECT TITLE>>>>_API AASplitScreenManager : public AActor
 {
 	GENERATED_BODY()
 	
