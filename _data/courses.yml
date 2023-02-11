@@ -3,7 +3,7 @@ visstudiocameraunreal: # Course slug - a unique name for the course that does no
   shorttitle: "Sections" # Short title for each course. Displays in the navigation bar.
   homepage: "index" # Homepage for the course. Relative to "courses/[slug]". Do not include a filename suffix (i.e. .md or .html)
   announcements_title: "Updates" # Label for the "Announcements" section. Default is "announcements" if not specified
-  #units_title: "Camera" # Label for "Unit" (singular). Defaults to "unit" if not specified.
+  units_title: "Section" # Label for "Unit" (singular). Defaults to "unit" if not specified.
   units: #Do not change.
     1: #Unit number
       title: "Visualization Studio Cameras for Unreal Engine" #Title for the unit
