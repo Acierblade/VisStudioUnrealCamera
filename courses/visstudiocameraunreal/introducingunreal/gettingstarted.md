@@ -30,7 +30,23 @@ unit: 1
 <a href="#[31:13]">[31:13]</a>
 <a href="#[31:55]">[31:55]</a>
 
-<p id="[00:00]">[00:00]</p>
+<p id="[00:00]">[00:00]
+<br><br>
+Begin with a C++ Unreal Project (if using an existing Blueprint-only project, it must first be converted to a C++ project).
+<br><br>
+In the content browser, navigate to C++ Classes, and then into the folder with your project’s name.
+<br><br>
+Create a new C++ class with Actor as the Parent Class. 
+<br><br>
+Name this “ASplitScreenManager”
+<br><br>
+Copy all of the provided code for ASplitScreenManager.cpp, and replace the default code with it.
+<br><br>
+For ASplitScreenManager.h copy ONLY the line void ApplyEightViewportSettings(); and insert that line directly under AASplitScreenManager();
+<br><br>
+Save the files, and return to the editor.
+
+</p>
 <p id="[01:16]">[01:16]</p>
 <p id="[02:18]">[02:18]</p>
 <p id="[02:44]">[02:44]</p>
