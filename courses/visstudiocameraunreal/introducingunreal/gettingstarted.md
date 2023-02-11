@@ -11,7 +11,7 @@ unit: 1
 ## <a href="codesnippets.md" target="_blank">Code Snippets</a>
 
 ---
-<pre style="height: 500px; overflow: scroll;">
+<div style="height: 500px; overflow: scroll;">
 ## Notes by Timestamp:
 ### [ 00:00 ](#0000-1)
 ### [ 01:16 ](#0116-1)
@@ -48,4 +48,4 @@ unit: 1
 ### [30:40]
 ### [31:13]
 ### [31:55]
-</pre>
+</div>
