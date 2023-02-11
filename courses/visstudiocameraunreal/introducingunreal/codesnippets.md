@@ -6,15 +6,14 @@ unit: 1
 ---
 
 ## Go To:
+<a href="#ASplitScreenManager.cpp">ASplitScreenManager.cpp</a><br>
+<a href="#ASplitScreenManager.h">ASplitScreenManager.h</a><br>
+<a href="#VizStudioGameInstance.cpp">VizStudioGameInstance.cpp</a><br>
+<a href="#VizStudioGameInstance.h">VizStudioGameInstance.h</a><br>
+<a href="#Blur Material Custom Node">Blur Material Custom Node</a><br>
 
-### [ ASplitScreenManager.cpp ](#asplitscreenmanagercpp)
-### [ ASplitScreenManager.h ](#asplitscreenmanagerh)
-### [ VizStudioGameInstance.cpp ](#vizstudiogameinstancecpp)
-### [ VizStudioGameInstance.h ](#vizstudiogameinstanceh)
-### [ Blur Material Custom Node ](#blur-material-custom-node)
 
-
-### ASplitScreenManager.cpp
+<p id="ASplitScreenManager.cpp"><h3>ASplitScreenManager.cpp</h3>
 <pre><code style="background: white;">
 // Fill out your copyright notice in the Description page of Project Settings.
 
@@ -77,12 +76,12 @@ void AASplitScreenManager::ApplyEightViewportSettings()
 	Viewport->SetDisableSplitscreenOverride(true);
 	Viewport->SplitscreenInfo[ESplitScreenType::None] = ScreenLayout;
 }
-</code></pre>
+</code></pre></p>
 
 
 ---
 
-### ASplitScreenManager.h
+<p id="ASplitScreenManager.h"><h3>ASplitScreenManager.h</h3>
 <pre><code style="background: white;">
 // Fill out your copyright notice in the Description page of Project Settings.
 
@@ -111,11 +110,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 };
-</code></pre>
+</code></pre></p>
 
 ---
 
-### VizStudioGameInstance.cpp
+<p id="VizStudioGameInstance.cpp"><h3>VizStudioGameInstance.cpp</h3>
 <pre><code style="background: white;">
 // Fill out your copyright notice in the Description page of Project Settings.
 
@@ -188,11 +187,11 @@ ULocalPlayer* UVizStudioGameInstance::RequestLocalPlayer(int32 ControllerId, FSt
 
 	return NewPlayer;
 }
-</code></pre>
+</code></pre></p>
 
 ---
 
-### VizStudioGameInstance.h
+<p id="VizStudioGameInstance.h"><h3>VizStudioGameInstance.h</h3>
 <pre><code style="background: white;">
 #pragma once
 
@@ -210,10 +209,11 @@ public:
 	UFUNCTION(BlueprintCallable)
 		ULocalPlayer * RequestLocalPlayer(int32 ControllerId, FString& OutError, bool bSpawnActor);
 };
-</code></pre>
+</code></pre></p>
 
 ---
 
+<p id="Blur Material Custom Node"><h3>Blur Material Custom Node</h3>
 ### Blur Material Custom Node
 <pre><code style="background: white;">
 float3 res = 0;
@@ -247,4 +247,4 @@ res += tex * weight;
 }
 
 return float4(res, 1);
-</code></pre>
+</code></pre></p>
