@@ -115,7 +115,8 @@ public:
 ---
 
 ### VizStudioGameInstance.cpp
-```// Fill out your copyright notice in the Description page of Project Settings.
+```
+// Fill out your copyright notice in the Description page of Project Settings.
 
 #include "VizStudioGameInstance.h"
 #include "Engine/Engine.h"
@@ -185,12 +186,14 @@ ULocalPlayer* UVizStudioGameInstance::RequestLocalPlayer(int32 ControllerId, FSt
 	}
 
 	return NewPlayer;
-}```
+}
+```
 
 ---
 
 ### VizStudioGameInstance.h
-```#pragma once
+```
+#pragma once
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
@@ -205,12 +208,14 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		ULocalPlayer * RequestLocalPlayer(int32 ControllerId, FString& OutError, bool bSpawnActor);
-};```
+};
+```
 
 ---
 
 ### Blur Material Custom Node
-```float3 res = 0;
+```
+float3 res = 0;
 
 //new - get invSize from here
 float2 invSize = View.ViewSizeAndInvSize.zw;
@@ -240,4 +245,5 @@ res += tex * weight;
 }
 }
 
-return float4(res, 1);```
+return float4(res, 1);
+```
