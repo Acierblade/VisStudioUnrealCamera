@@ -10,4 +10,4 @@ visstudiocameraunreal: # Course slug - a unique name for the course that does no
       home: "introducingunreal/gettingstarted" # Unit Home Page (Relative to "courses/[slug]"). Do not include a filename suffix (i.e. .md or .html)
       pages: # List of all pages within the unit. Add or delete as needed.
         - title: "Setting up an Unreal Engine Project" #Page Title
-          url: "introducingunreal/gettingstarted" #Page URL relative to courses/[slug]. Do not include a filename suffix (i.e. .md or .html)
+          url: "introducingunreal/gettingstarted/gettingstarted" #Page URL relative to courses/[slug]. Do not include a filename suffix (i.e. .md or .html)
