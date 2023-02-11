@@ -8,4 +8,4 @@ unit: 1
 
 ---
 
-<a href="courses/visstudiocameraunreal/introducingunreal/gettingstarted.md" target="_blank">Code Snippets</a>
+<a href="gettingstarted.md" target="_blank">Code Snippets</a>
