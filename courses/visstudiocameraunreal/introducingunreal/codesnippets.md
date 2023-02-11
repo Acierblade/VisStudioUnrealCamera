@@ -7,10 +7,10 @@ unit: 1
 
 ## Code Snippets
 
-### [Go To: ASplitScreenManager.cpp](#asplitscreenmanager.cpp)
-### [Go To: ASplitScreenManager.h](#asplitscreenmanager.h)
-### [Go To: VizStudioGameInstance.cpp](#VizStudioGameInstance.cpp)
-### [Go To: VizStudioGameInstance.h](#VizStudioGameInstance.h)
+### [Go To: ASplitScreenManager.cpp](#asplitscreenmanagercpp)
+### [Go To: ASplitScreenManager.h](#asplitscreenmanagerh)
+### [Go To: VizStudioGameInstance.cpp](#vizstudiogameinstancecpp)
+### [Go To: VizStudioGameInstance.h](#vizstudiogameinstanceh)
 ### [Go To: Blur Material Custom Node](#blur-material-custom-node)
 
 
