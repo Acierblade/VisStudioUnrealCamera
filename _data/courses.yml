@@ -11,3 +11,5 @@ visstudiocameraunreal: # Course slug - a unique name for the course that does no
       pages: # List of all pages within the unit. Add or delete as needed.
         - title: "Setting up an Unreal Engine Project" #Page Title
           url: "introducingunreal/gettingstarted" #Page URL relative to courses/[slug]. Do not include a filename suffix (i.e. .md or .html)
+        - title: "Video Walkthrough Notes"
+          url: "introducingunreal/codesnippets" 
