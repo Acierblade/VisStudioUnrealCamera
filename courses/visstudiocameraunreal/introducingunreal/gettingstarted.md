@@ -12,7 +12,7 @@ unit: 1
 
 ---
 <div style="height: 500px; overflow: scroll;">
-<h4>
+<p1>
 <a href="#[00:00]">[00:00]</a><br>
 <a href="#[01:16]">[01:16]</a><br>
 <a href="#[02:18]">[02:18]</a><br>
@@ -30,9 +30,9 @@ unit: 1
 <a href="#[30:40]">[30:40]</a><br>
 <a href="#[31:13]">[31:13]</a><br>
 <a href="#[31:55]">[31:55]</a><br><br>
-</h4>
+</p1>
 
-<p id="[00:00]"><h3>[00:00]</h3>
+<p id="[00:00]"><h4>[00:00]</h4>
 
 Begin with a C++ Unreal Project (if using an existing Blueprint-only project, it must first be converted to a C++ project).
 <br><br>
@@ -50,7 +50,7 @@ Save the files, and return to the editor.
 <br><br>
 </p>
 
-<p id="[01:16]"><h3>[01:16]</h3>
+<p id="[01:16]"><h4>[01:16]</h4>
 
 Create another C++ class, being sure to check “Show All Classes”
 <br><br>
@@ -64,7 +64,7 @@ For VizStudioGameInstance.h, only the lines from  <em>public:</em>  to <em>ULoca
 <br><br>
 </p>
 
-<p id="[02:18]"><h3>[02:18]</h3>
+<p id="[02:18]"><h4>[02:18]</h4>
 
 Back in the editor, create one more C++ class, and select GameViewportClient as the parent class.
 <br><br>
@@ -74,7 +74,7 @@ This requires no additional code.
 <br><br>
 </p>
 
-<p id="[02:44]"><h3>[02:44]</h3>
+<p id="[02:44]"><h4>[02:44]</h4>
 
 Now create a Blueprint class from ASplitScreenManager.
 <br><br>
@@ -84,7 +84,7 @@ This should be placed in your project’s Content folder. Go there now.
 <br><br>
 </p>
 
-<p id="[02:57]"><h3>[02:57]</h3>
+<p id="[02:57]"><h4>[02:57]</h4>
 
 Now to create a few more Blueprint classes.
 <br><br>
@@ -98,7 +98,7 @@ Finally, create a Player Controller class, and name it <b>“VizPlayerController
 <br><br>
 </p>
 
-<p id="[03:49]"><h3>[03:49]</h3>
+<p id="[03:49]"><h4>[03:49]</h4>
 
 Open up the VizGameMode Blueprint.
 <br><br>
@@ -106,7 +106,7 @@ Follow along with the video to continue setting up the VizGameMode.
 <br><br>
 </p>
 
-<p id="[10:53]"><h3>[10:53]</h3>
+<p id="[10:53]"><h4>[10:53]</h4>
 
 At this point, be sure that the Possess node inside your collapsed Change First Player To A Parent Pawn node has an execute output running to the collapsed node’s Outputs node.
 <br><em>
@@ -116,7 +116,7 @@ From here, continue following along with the video to set up Panini Projection i
 <br><br>
 </p>
 
-<p id="[11:29]"><h3>[11:29]</h3>
+<p id="[11:29]"><h4>[11:29]</h4>
 
 Go to VizGameMode’s Class Defaults, and change the Default Pawn Class to <b>VizCameraReceiverPawn</b>, <em>NOT VizParentPawn</em>
 <br><br>
@@ -126,7 +126,7 @@ With that, the VizGameMode Blueprint is set up.
 <br><br>
 </p>
 
-<p id="[11:43]"><h3>[11:43]</h3>
+<p id="[11:43]"><h4>[11:43]</h4>
 
 <em>*Technically, this section is optional if you do not plan to move the player in your project, or if you simply do not want vignetting when moving. If that is the case, skip to [14:08].</em>
 <br><br>
@@ -136,7 +136,7 @@ Follow the video closely for steps.
 <br><br>
 </p>
 
-<p id="[12:53]"><h3>[12:53]</h3>
+<p id="[12:53]"><h4>[12:53]</h4>
 
 It is important to note that the Input names on the Custom node are case sensitive. For example, “uv” can <b>NOT</b> be changed to “UV” without the code needing to be changed.
 <br><br>
@@ -144,7 +144,7 @@ Be sure to replace the default code in the Custom node with the code provided.
 <br><br>
 </p>
 
-<p id="[14:08]"><h3>[14:08]</h3>
+<p id="[14:08]"><h4>[14:08]</h4>
 
 Open the VizParentPawn Blueprint.
 <br><br>
@@ -152,37 +152,37 @@ Open the VizParentPawn Blueprint.
 <br><br>
 </p>
 
-<p id="[18:29]"><h3>[18:29]</h3>
+<p id="[18:29]"><h4>[18:29]</h4>
 
 <em>*If you do not want vignetting during player movement, skip ahead to [30:40].</em>
 <br><br>
 </p>
 
-<p id="[24:37]"><h3>[24:37]</h3>
+<p id="[24:37]"><h4>[24:37]</h4>
 
 You do not need to enter these values yet. At [29:57] a compiler error will require that the nodes be refreshed, and the values will be reset to their defaults. Hold off on entering those values for now.
 <br><br>
 </p>
 
-<p id="[29:57]"><h3>[29:57]</h3>
+<p id="[29:57]"><h4>[29:57]</h4>
 
 This compiler error is just Unreal not understanding that the old input names in the nodes have been changed. Unfortunately, this does mean that the values will need to be input again after the nodes are refreshed if you entered them earlier.
 <br><br>
 </p>
 
-<p id="[30:40]"><h3>[30:40]</h3>
+<p id="[30:40]"><h4>[30:40]</h4>
 
 Back in the VizParentPawn’s EventGraph, set up the Possessed Event.
 <br><br>
 </p>
 
-<p id="[31:13]"><h3>[31:13]</h3>
+<p id="[31:13]"><h4>[31:13]</h4>
 
 Now, open the VizCameraReceiverPawn Blueprint, and follow the video to set up the camera for correct use in the Visualization Studio.
 <br><br>
 </p>
 
-<p id="[31:55]"><h3>[31:55]</h3>
+<p id="[31:55]"><h4>[31:55]</h4>
 
 Lastly, open the Project Settings, and change the Default GameMode and Game Instance classes to VizGameMode and VizStudioGameInstance, respectively.
 <br><br>
