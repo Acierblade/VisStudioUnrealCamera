@@ -1,40 +1,17 @@
-gettingstarted: # Course slug - a unique name for the course that does not contain spaces or special characters20
-  title: "Getting Started Guide" # Full title for the course. Displays in the title bar and at the top of each page
-  shorttitle: "Getting Started" # Short title for each course. Displays in the navigation bar.
+visstudiocameraunreal: # Course slug - a unique name for the course that does not contain spaces or special characters20
+  title: "Visualization Studio Development Kit" # Full title for the course. Displays in the title bar and at the top of each page
+  shorttitle: "Sections" # Short title for each course. Displays in the navigation bar.
   homepage: "index" # Homepage for the course. Relative to "courses/[slug]". Do not include a filename suffix (i.e. .md or .html)
-  announcements_title: "News and Updates" # Label for the "Announcements" section. Default is "announcements" if not specified
-  units_title: "Section" # Label for "Unit" (singular). Defaults to "unit" if not specified.
-  alert:
-    type: danger
-    message: "Git Courseware is now avaialble for use!"
+  announcements_title: "Updates" # Label for the "Announcements" section. Default is "announcements" if not specified
+  units_title: "Camera" # Label for "Unit" (singular). Defaults to "unit" if not specified.
   units: #Do not change.
     1: #Unit number
-      title: "About Git Courseware" #Title for the unit
-      home: "introduction/about" # Unit Home Page (Relative to "courses/[slug]"). Do not include a filename suffix (i.e. .md or .html)
+      title: "Setting Up Unreal Engine" #Title for the unit
+      home: "introducingunreal/gettingstarted" # Unit Home Page (Relative to "courses/[slug]"). Do not include a filename suffix (i.e. .md or .html)
       pages: # List of all pages within the unit. Add or delete as needed.
-        - title: "Introduction" #Page Title
+        - title: "Getting Started with Unreal Engine" #Page Title
           url: "introduction/about" #Page URL relative to courses/[slug]. Do not include a filename suffix (i.e. .md or .html)
         - title: "Introduction to Markdown" #Page Title
           url: "introduction/markdown" #Page URL relative to courses/[slug]. Do not include a filename suffix (i.e. .md or .html)
         - title: "Software Tools" #Page Title
           url: "introduction/tools" #Page URL relative to courses/[slug]. Do not include a filename suffix (i.e. .md or .html)
-    2: 
-      title: "Getting Started"
-      home: "start/github"
-      pages:
-        - title: "GitHub Setup"
-          url: "start/github"
-        - title: "Set Up Your Editing Environment"
-          url: "start/editing"
-        - title: "Configuring Your Site"
-          url: "start/config"
-    3:
-      title: "Creating Courses and Content"
-      home: "content/create" 
-      pages:
-        - title: "Creating Courses"
-          url: "content/create"
-        - title: "Creating Pages"
-          url: "content/pages"
-        - title: "Creating Announcements"
-          url: "content/announcements"
