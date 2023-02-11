@@ -15,6 +15,7 @@ unit: 1
 
 
 ### ASplitScreenManager.cpp
+<div style="background-color: rgb(229, 229, 229);">
 ```
 // Fill out your copyright notice in the Description page of Project Settings.
 
@@ -78,10 +79,12 @@ void AASplitScreenManager::ApplyEightViewportSettings()
 	Viewport->SplitscreenInfo[ESplitScreenType::None] = ScreenLayout;
 }
 ```
+</div>
 
 ---
 
 ### ASplitScreenManager.h
+<div style="background-color: rgb(229, 229, 229);">
 ```
 // Fill out your copyright notice in the Description page of Project Settings.
 
@@ -111,10 +114,12 @@ public:
 
 };
 ```
+</div>
 
 ---
 
 ### VizStudioGameInstance.cpp
+<div style="background-color: rgb(229, 229, 229);">
 ```
 // Fill out your copyright notice in the Description page of Project Settings.
 
@@ -188,10 +193,12 @@ ULocalPlayer* UVizStudioGameInstance::RequestLocalPlayer(int32 ControllerId, FSt
 	return NewPlayer;
 }
 ```
+</div>
 
 ---
 
 ### VizStudioGameInstance.h
+<div style="background-color: rgb(229, 229, 229);">
 ```
 #pragma once
 
@@ -210,10 +217,12 @@ public:
 		ULocalPlayer * RequestLocalPlayer(int32 ControllerId, FString& OutError, bool bSpawnActor);
 };
 ```
+</div>
 
 ---
 
 ### Blur Material Custom Node
+<div style="background-color: rgb(229, 229, 229);">
 ```
 float3 res = 0;
 
@@ -247,3 +256,4 @@ res += tex * weight;
 
 return float4(res, 1);
 ```
+</div>
