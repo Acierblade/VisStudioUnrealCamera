@@ -6,32 +6,29 @@ plugins:
   - jekyll-feed
 
 # Site information. Change the information after the first semicolon (:) and before the pound sign (#)
-title: "Git-Courseware Open Textbook Project" # Change to the title of your site
+title: "VisSDK" # Change to the title of your site
 style: ncstate # Site theme - Current values are "ncstate" and "generic"
 nav_showcourses: 1 # Set to 0 to show a "Courses" menu with a link to each course. Set to 1 to show each course in the navbar with a link to the units as a dropdown
 
 #College/Org Information
-org_name: College of Education # Name of the organization. For the ncstate theme, this should be the college
-org_url: https://ced.ncsu.edu # URL of the organization
-unit_name_long: "Department of Teacher Education and Learning Sciences" # Name of the department or unit within the organization
-unit_url: https://ced.ncsu.edu/tels # URL of the departmental unit
-address: "1890 Main Campus Drive<br/>Raleigh, NC 27606" # Physical Address
-phone: "919.513.8551" # Change to your phone number
-email: "mjsamber@ncsu.edu" # Change to your email address 
+org_name: University Libraries # Name of the organization. For the ncstate theme, this should be the college
+org_url: https://www.lib.ncsu.edu/ # URL of the organization
+unit_name_long: "University Libraries Research Engagement" # Name of the department or unit within the organization
+unit_url: https://www.lib.ncsu.edu/ # URL of the departmental unit
+address: "<br/>library_hightechspaces@ncsu.edu<br/><br/>D. H. Hill Jr. Library<br/>2 Broughton Drive<br/>Campus Box 7111<br/>Raleigh, NC 27695-7111" # Physical Address
+phone: "919-513-0086" # Change to your phone number
+email: "library_hightechspaces@ncsu.edu" # Change to your email address 
 
 #Social media links
 github_url: "https://github.com/mjsamberg/git-courseware-template" #URL of the GitHub Repository for people to fork
-facebook_username: TheFridayInstitute
-twitter_username: mjsamberg
-github_username:  mjsamberg
+facebook_username: 
+twitter_username: 
+github_username:  
 
 
 
 # A list of the pages to display in the navigation bar and in the footer. Use "absolute: true" for external links
 header_pages:
-  - title: "Wolfware"
-    url: "https://wolfware.ncsu.edu"
-    absolute: true
   - title: "Home"
     url: "/"
 
