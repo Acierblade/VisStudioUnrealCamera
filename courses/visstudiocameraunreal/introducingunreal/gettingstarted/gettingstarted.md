@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Project Setup Video"
-course: "visstudiocameraunity"
+course: "visstudiocameraunreal"
 unit: 1
 ---
 
