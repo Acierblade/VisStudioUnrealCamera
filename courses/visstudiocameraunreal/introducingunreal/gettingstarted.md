@@ -8,7 +8,7 @@ unit: 1
 
 ---
 
-## <a href="codesnippets.md" target="_blank">Code Snippets</a>
+## <a href="codesnippets.html" target="_blank">Code Snippets</a>
 
 ---
 <div style="height: 500px; overflow: scroll;">
