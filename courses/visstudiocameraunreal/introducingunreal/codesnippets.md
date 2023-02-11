@@ -16,6 +16,7 @@ unit: 1
 
 ### ASplitScreenManager.cpp
 ```
+<pre><code>
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ASplitScreenManager.h"
@@ -77,6 +78,7 @@ void AASplitScreenManager::ApplyEightViewportSettings()
 	Viewport->SetDisableSplitscreenOverride(true);
 	Viewport->SplitscreenInfo[ESplitScreenType::None] = ScreenLayout;
 }
+</code></pre>
 ```
 
 ---
