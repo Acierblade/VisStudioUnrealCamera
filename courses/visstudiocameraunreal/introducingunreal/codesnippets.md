@@ -5,13 +5,13 @@ course: "visstudiocameraunreal"
 unit: 1
 ---
 
-## Code Snippets
+## Go To:
 
-### [Go To: ASplitScreenManager.cpp](#asplitscreenmanagercpp)
-### [Go To: ASplitScreenManager.h](#asplitscreenmanagerh)
-### [Go To: VizStudioGameInstance.cpp](#vizstudiogameinstancecpp)
-### [Go To: VizStudioGameInstance.h](#vizstudiogameinstanceh)
-### [Go To: Blur Material Custom Node](#blur-material-custom-node)
+### [ ASplitScreenManager.cpp ](#asplitscreenmanagercpp)
+### [ ASplitScreenManager.h ](#asplitscreenmanagerh)
+### [ VizStudioGameInstance.cpp ](#vizstudiogameinstancecpp)
+### [ VizStudioGameInstance.h ](#vizstudiogameinstanceh)
+### [ Blur Material Custom Node ](#blur-material-custom-node)
 
 
 ### ASplitScreenManager.cpp
