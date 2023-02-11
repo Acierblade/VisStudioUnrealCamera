@@ -15,7 +15,6 @@ unit: 1
 
 
 ### ASplitScreenManager.cpp
-
 <pre><code style="background: white;">
 // Fill out your copyright notice in the Description page of Project Settings.
 
@@ -84,7 +83,7 @@ void AASplitScreenManager::ApplyEightViewportSettings()
 ---
 
 ### ASplitScreenManager.h
-```
+<pre><code style="background: white;">
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
@@ -112,12 +111,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 };
-```
+</code></pre>
 
 ---
 
 ### VizStudioGameInstance.cpp
-```
+<pre><code style="background: white;">
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "VizStudioGameInstance.h"
@@ -189,12 +188,12 @@ ULocalPlayer* UVizStudioGameInstance::RequestLocalPlayer(int32 ControllerId, FSt
 
 	return NewPlayer;
 }
-```
+</code></pre>
 
 ---
 
 ### VizStudioGameInstance.h
-```
+<pre><code style="background: white;">
 #pragma once
 
 #include "CoreMinimal.h"
@@ -211,12 +210,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 		ULocalPlayer * RequestLocalPlayer(int32 ControllerId, FString& OutError, bool bSpawnActor);
 };
-```
+</code></pre>
 
 ---
 
 ### Blur Material Custom Node
-```
+<pre><code style="background: white;">
 float3 res = 0;
 
 //new - get invSize from here
@@ -248,4 +247,4 @@ res += tex * weight;
 }
 
 return float4(res, 1);
-```
+</code></pre>
