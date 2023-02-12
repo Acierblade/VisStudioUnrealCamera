@@ -5,7 +5,7 @@ course: "visstudiocameraunreal"
 unit: 1
 ---
 
-## Go To:
+## Jump To:
 <a href="#ASplitScreenManager.cpp">ASplitScreenManager.cpp</a><br>
 <a href="#ASplitScreenManager.h">ASplitScreenManager.h</a><br>
 <a href="#VizStudioGameInstance.cpp">VizStudioGameInstance.cpp</a><br>
