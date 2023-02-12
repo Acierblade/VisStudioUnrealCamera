@@ -97,9 +97,9 @@ class &lt;&lt;&lt;&lt;PROJECT TITLE&gt;&gt;&gt;&gt;_API AASplitScreenManager : p
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
-	AASplitScreenManager();
-	void ApplyEightViewportSettings();
+		// Sets default values for this actor's properties
+		AASplitScreenManager();
+		void ApplyEightViewportSettings();
 
 protected:
 	// Called when the game starts or when spawned
@@ -136,28 +136,28 @@ ULocalPlayer* UVizStudioGameInstance::RequestLocalPlayer(int32 ControllerId, FSt
 	{
 		OutError = FString::Printf(TEXT("A local player already exists for controller ID %d,"), ControllerId);
 	}
-	else if (LocalPlayers.Num() < MaxSplitscreenPlayers)
+	else if (LocalPlayers.Num() &lt; MaxSplitscreenPlayers)
 	{
 		// If the controller ID is not specified then find the first available
-		if (ControllerId < 0)
+		if (ControllerId &lt; 0)
 		{
-			for (ControllerId = 0; ControllerId < MaxSplitscreenPlayers; ++ControllerId)
+			for (ControllerId = 0; ControllerId &lt; MaxSplitscreenPlayers; ++ControllerId)
 			{
 				if (FindLocalPlayerFromControllerId(ControllerId) == NULL)
 				{
 					break;
 				}
 			}
-			check(ControllerId < MaxSplitscreenPlayers);
+			check(ControllerId &lt; MaxSplitscreenPlayers);
 		}
 		else if (ControllerId >= MaxSplitscreenPlayers)
 		{
 			UE_LOG(LogPlayerManagement, Warning, TEXT("Controller ID (%d) is unlikely to map to any physical device, so this player will not receive input"), ControllerId);
 		}
 
-		NewPlayer = NewObject<ULocalPlayer>(GetEngine(), GetEngine()->LocalPlayerClass);
+		NewPlayer = NewObject&lt;ULocalPlayer>(GetEngine(), GetEngine()->LocalPlayerClass);
 		InsertIndex = AddLocalPlayer(NewPlayer, ControllerId);
-		if (bSpawnActor && InsertIndex != INDEX_NONE && GetWorld() != NULL)
+		if (bSpawnActor &amp;&amp; InsertIndex != INDEX_NONE &amp;&amp; GetWorld() != NULL)
 		{
 			if (GetWorld()->GetNetMode() != NM_Client)
 			{
