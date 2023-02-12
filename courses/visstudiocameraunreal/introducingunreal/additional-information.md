@@ -30,13 +30,13 @@ unit: 1
 ### VizCameraReceiverPawn
 * This BP actor is a player Pawn that consists of a camera with appropriate settings. 
 * This class is intended purely as an owner for a camera. They should not be directly edited or changed at runtime. These changes should be made through the VizParentPawn.
-* This Pawn is possessed by a PlayerController
+* *This Pawn is possessed by a PlayerController*
 
 ### VizParentPawn
 * This BP actor should be thought of as the main player Pawn.
 * Movement and other inputs should be handled by this Pawn. The VizCameraReceiverPawns are attached to this Pawn, so they are moved by it.
     * Additionally, this Pawn contains arrays with references to each of the VizCameraReceiverPawns and their Camera components.
-* This Pawn is possessed by a VizPlayerController
+* *This Pawn is possessed by a VizPlayerController*
 
 ### VizPlayerController
 * The PlayerController class that possesses the VizParentPawn
@@ -114,7 +114,7 @@ It is important to know that all input should be handled by the VizParentPawn. A
 
 By default, the VizParentPawn can only move forward/backward (W and S keys, respectively) and left/right (A and D keys, respectively). It is recommended that you replace these inputs with your own input bindings.
 
-    If these bindings are replaced, references to the variable F/B can and should be replaced by the axis values for forward/backward movement (full forward being +1 and full backward being -1). The same should be done for R/L and right/left movement (full right being +1 and full left being -1). 
+*If these bindings are replaced, references to the variable F/B can and should be replaced by the axis values for forward/backward movement (full forward being +1 and full backward being -1). The same should be done for R/L and right/left movement (full right being +1 and full left being -1).*
 
 There is no rotation by default due to simulator sickness concerns. This input must be added manually if desired.
 
