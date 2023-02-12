@@ -214,7 +214,6 @@ public:
 ---
 
 <p id="Blur Material Custom Node"><h3>Blur Material Custom Node</h3>
-### Blur Material Custom Node
 <pre><code style="background: white;">
 float3 res = 0;
 
