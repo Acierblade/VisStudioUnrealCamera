@@ -229,14 +229,14 @@ float weights[] = { 0.01, 0.02, 0.04, 0.02, 0.01, 0.02, 0.04, 0.08, 0.04, 0.02, 
 
 float offsets[] = { -4, -2, 0, 4, 2 };
 
-if(Mask <= 0.01) return SceneTextureLookup(uv, TexIndex, false);
+if(Mask &lt;= 0.01) return SceneTextureLookup(uv, TexIndex, false);
 
 uv *= 0.5;
-for (int i = 0; i < 5; ++i)
+for (int i = 0; i &lt; 5; ++i)
 {
 float v = uv.y + offsets[i] * invSize.y * Mask * BlurStrength;
 int temp = i * 5;
-for (int j = 0; j < 5; ++j)
+for (int j = 0; j &lt; 5; ++j)
 {
 float u = uv.x + offsets[j] * invSize.x * Mask * BlurStrength;
 float2 uvShifted = uv + float2(u, v);
