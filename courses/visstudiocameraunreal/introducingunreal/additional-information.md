@@ -108,6 +108,8 @@ r.Upscale.Panini.ScreenFit 1.95
 
 ---
 
+## Built-In Controls
+
 It is important to know that all input should be handled by the VizParentPawn. All of the other camera-containing actors will be attached to this actor on startup, and they will move when it does.
 
 By default, the VizParentPawn can only move forward/backward (W and S keys, respectively) and left/right (A and D keys, respectively). It is recommended that you replace these inputs with your own input bindings.
