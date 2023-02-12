@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Project Setup Video"
+title: "Setting Up a Project for the Visualization Studio"
 course: "visstudiocameraunreal"
 unit: 1
 ---
